@@ -1,0 +1,4 @@
+pip -m venv venv_name 
+
+
+venv_name/scripts/activate
