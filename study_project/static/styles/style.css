@@ -2,14 +2,14 @@
 
 :root {
   --color-main: #71c6dd;  /* #71c6dd; */
-  --color-main-light: #e1f6fb;
-  --color-dark: #a02f2f; /*#3f4156;*/
-  --color-dark-medium: #ecffca; /* #51546e; */
-  --color-dark-light: #ebb672; /*#696d97*/
+  --color-main-light: #174d5a;
+  --color-dark: #3f4156; /*#3f4156;*/
+  --color-dark-medium: #51546e; /* #51546e; */
+  --color-dark-light: #696d97; /*#696d97*/
   --color-light: #e5e5e5;
-  --color-gray: #8b8b8b; /*#8b8b8b;*/
+  --color-gray: #8b8b8b;; /*#8b8b8b;*/
   --color-light-gray: #b2bdbd;
-  --color-bg: #000000ee; /*2d2d39;*/
+  --color-bg: #2d2d39; /*2d2d39;*/
   --color-success: #5dd693;
   --color-error: #fc4b0b;
 }
