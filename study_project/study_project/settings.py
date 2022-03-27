@@ -13,8 +13,7 @@ SECRET_KEY = 'django-insecure-@ex%g_ob996rp0%dxbbtja7f*0l8^jiv4f^i%j%qeej8=coomj
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-TEMPLATES_DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['study-mate-app.herokuapp.com', '127.0.0.1:8000']
 
 
 # Application definition
@@ -31,6 +30,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
